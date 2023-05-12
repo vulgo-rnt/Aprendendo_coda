@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    margin: auto;
+    background-image: url(wallpaper.jpg);
+    font-size:20px;
+}
+header{
+    background-color: rgba(0, 0, 255, 0.815);
+    width: 370px;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    text-decoration: underline;
+
+}
+section{
+    background-color: rgba(0, 225, 255, 0.733);
+    width: 400px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 20px;
+}
+select{
+    width: 200px;
+    text-align: center;
+}
+#result{
+    line-height: 22px;
+    text-align: left;
+    background-color: rgba(255, 255, 0, 0.479);
+    border-radius: 10px;
+    margin: auto;
+}
+footer{
+    color: rebeccapurple;
+    text-shadow: 1px 1px 3px purple;
+}

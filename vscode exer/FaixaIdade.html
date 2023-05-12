@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Orgia</title>
+    <style>
+        #h1{text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>Bem - Vindo ao Hotel Orgia.ltda</h1>
+    Qual sua idade : <input type="number" id="a1">
+    <input type="button" id="a2" value="Click aki" onclick = 'clicksla()'>
+    <script>
+        
+        var a2 = document.querySelector('input#a2')
+       
+        function clicksla() {
+            var a1 = document.querySelector('input#a1')
+            var num = Number(a1.value)
+            var resultado = ''
+            switch (true) {
+                case num < 10 :
+                    resultado = 'Você está na faixa KIDS'
+                    break
+                case 10 < num && num <= 20 :
+                    resultado = 'Você está na faixa ADOLECENTE REBELDE'
+                    break
+                case 20 < num && num <= 30 :
+                    resultado = 'Você está na faixa QUASE ADULTO'
+                    break
+                case 30 < num && num <= 40 :
+                    resultado = 'Você está na faixa ADULTO'
+                    break
+                case 40 < num && num <= 50 :
+                    resultado = 'Você está na faixa ADULTO CHATO'
+                    break
+                case 50 < num && num <= 60 :
+                    resultado = 'Você está na faixa TA NA HORA DE SE CUIDA'
+                    break
+                case 60 < num && num <= 70 :
+                    resultado = 'Você está na faixa QUASE MORTO'
+                    break 
+                default:
+                    resultado = 'Você está MORTO CTZ'
+                    break
+                document.write(resultado)
+            }
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <style>
+        html { display: flex;
+            justify-content: center;
+            background-color: lightslategray;
+        }
+    </style>
+</head>
+<body>
+    <h1 style=color:black;>Conversor de Moedas</h1>
+    <input type="number" id="nmr">
+    <button style="color: rgb(62, 122, 1);" id="btEURO">EURO</button>
+    <button style='color: rgb(204, 5, 5);' id="btUSD">USD</button>
+    <button style="color: rgb(190, 190, 46);" id="btBTC">BTC</button>
+    <p style="color:white;"></p>
+    <script>
+        var euro = document.querySelector('button#btEURO')
+        var usd = document.querySelector('button#btUSD')
+        var btc = document.querySelector('button#btBTC')
+        var input = document.querySelector('input#nmr')
+        var result = document.querySelector('p')
+        euro.addEventListener('click',function(){
+            var valor = Number(input.value)
+            convert = valor / 5.55
+            result.innerText = 'Preço convertido para Euro : ' + convert.toFixed(2)
+        })
+        usd.addEventListener('click', function(){
+            var valor = Number(input.value)
+            convert = valor / 5.04
+            result.innerText = 'Preço convertido para Dólar : ' + convert.toFixed(2)
+        })
+        btc.addEventListener('click', function() {
+            var valor = Number(input.value)
+            convert = valor / 144000
+            result.innerText = 'Preço convertido para Bitcoin : ' + convert.toFixed(2)
+        })
+    </script>
+</body>
+</html>

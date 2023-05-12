@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+        <title>Numero por linha</title>
+            <style>
+                html{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    font-size: 70px;
+                }
+        input, button {
+            display: inline-block;
+            font-size: 70px;
+        }
+        div{
+            margin-top: 50px;
+        }
+            </style>
+            <input type="text" id="numero" placeholder="Digite um número">
+        <button onclick="clickOk()">OK</button>
+    <div></div> 
+</head>
+<body>
+   <script>
+        function clickOk() {
+            var numero = Number(document.getElementById("numero").value);
+                var resultado = document.querySelector('div');
+                    function retornaNumeroEquebra(num) {
+                        if (num > 0) {
+                        resultado.innerHTML += num + ',';
+                        retornaNumeroEquebra(num - 1);
+                        }
+                    }
+                retornaNumeroEquebra(numero);
+        }
+    </script>          
+</body>
+</html>

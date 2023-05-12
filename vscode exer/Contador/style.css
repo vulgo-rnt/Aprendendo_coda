@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-image: url(calc.png);
+}
+header{
+    color: rgb(0, 17, 250);
+    text-shadow: 1px 1px 1px black;
+}
+section{
+    background-color: aqua;
+    border-radius: 5px;
+    margin: auto;
+    padding: 50px;
+    width: 180px;
+    box-shadow: 1px 1px 5px black;
+}
+footer{
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 1px black;
+}

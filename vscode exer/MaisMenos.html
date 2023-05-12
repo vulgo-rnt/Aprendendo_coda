@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais ou menos</title>
+    <style>
+        button, p{
+            display: inline-block;
+            font-size: 100pt;
+            width: 100pt;
+            text-align: center;
+        }
+        html{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <button id = 'mais' style="color: green ;" onclick='mais()'>+</button>
+    <p type="number">0</p>
+    <button id = 'menos' style="color: red;" onclick="menos()">-</button>
+    <script>
+        var seletor = document.querySelector('p')
+        var numero = 98
+        function ajustm(){
+            if (seletor.innerText.length > 2){
+                seletor.style.fontSize = 67 + 'pt'
+            }
+            if (seletor.innerText.length < 3)
+                seletor.style.fontSize = 100 + 'pt' }
+         function mais(){
+            numero ++
+            seletor.innerText = numero
+            ajustm()
+        }
+         function menos(){
+            numero --
+            seletor.innerText = numero
+            ajustm()
+         }
+    </script>
+    
+</body>
+</html>

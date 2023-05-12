@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    font-size: 50pt;
+    width: 60pt;
+}
+div#div{
+    font-size: 50pt;
+}
+button#apagar{
+    width: 249pt;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+html{
+    background-color: aqua;
+}
+section{
+    background-color: aquamarine;
+    width: 580px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid black;
+    line-height: 40px;
+}
+footer{
+    text-align: center;
+    color: rebeccapurple;
+    text-shadow: 0px 0px 6px black;
+}
+#price_margin{
+    background-color: cadetblue;
+    width: 380px;
+    border-radius: 30px;
+    margin: auto;
+    border: 2px solid black;
+}
+#items{
+    width: 150px;
+    background-color: bisque;
+}
+button{
+    width: 50px;
+    background-color: blanchedalmond;
+}  
+#rt{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}

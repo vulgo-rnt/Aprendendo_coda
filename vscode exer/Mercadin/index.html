@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+            <title>Mercadin ltda</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <h1>Mercadin dos SharkBull</h1>
+                <div id = 'in'>
+                    <select id = 'items' >
+                        <option disabled selected value="">Selecione o item a baixo</option>
+                            <option value="p1">Cadeira</option>
+                            <option value="p2">Mouse</option>
+                        <option value="p3">Teclado</option>
+                    </select>
+                    <button onclick="verif()">OK</button>
+                </div>
+                        <div id = 'price_margin'>
+                            Preço:<input type="radio" name="rd" id="min" checked>De Pobre
+                                <input type="radio" name="rd" id="med">Custo Benefício
+                            <input type="radio" name="rd" id="max">Artigo de luxo
+                        </div>
+                        <div id="rt" class="container"><div id="out"></div>
+                    <div id="ct"></div></div>
+                </section>
+            <footer>&copy;SharkBull</footer>
+        <script src="script.js"></script>
+    </body>
+</html>

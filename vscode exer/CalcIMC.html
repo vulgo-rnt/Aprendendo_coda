@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC Calculetor</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Calculadora de IMC</h1>
+    Seu peso KG:<input type="number" id="kg" /> Sua altura:<input
+      type="number"
+      id="alt"
+    />
+    <button id="bt" onclick="ok()">OK</button>
+    <p></p>
+    <script>
+      var selectkg = document.querySelector("input#kg");
+      var selectalt = document.querySelector("input#alt");
+      var selectp = document.querySelector("p");
+      function ok() {
+        var kg = Number(selectkg.value);
+        var alt = Number(selectalt.value);
+        var result = kg / (alt * alt);
+        switch (true) {
+          case result < 18.5:
+            selectp.innerText =
+              "Seu IMC é " +
+              result.toFixed(0) +
+              " e você está um pouco magro :(";
+            break;
+          case result > 18.5 && result < 24.9:
+            selectp.innerText =
+              "Seu IMC é " +
+              result.toFixed(0) +
+              " e você está no peso ideal ;)";
+            break;
+          case result > 24.9 && result < 29.9:
+            selectp.innerText =
+              "Seu IMC é " +
+              result.toFixed(0) +
+              " e você está no sobre peso :(";
+            break;
+          case result > 29.9 && result < 40:
+            selectp.innerText =
+              "Seu IMC é " + result.toFixed(0) + " e você está obeso :o";
+            break;
+          default:
+            selectp.innerText =
+              "Seu IMC é " +
+              result.toFixed(0) +
+              " e se você come mais um pouco você explodeeee";
+        }
+      }
+    </script>
+  </body>
+</html>

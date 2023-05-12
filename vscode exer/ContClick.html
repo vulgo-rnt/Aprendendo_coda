@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de click's</title>
+    <style>
+        body {
+            display: flex;
+                justify-content: center;
+                align-items: center;
+            height: 100vh;
+        }
+        button#qd{
+            background-color: pink;
+                color : black;
+                    font-size : 100pt;
+                text-align: center;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <button id="qd" onclick="umclick()">0</button>
+        <script>  
+            var seletor = document.querySelector('button#qd')
+                var numero = 0 
+                    function umclick() {
+                        if (numero < 10) {numero += 1
+                    seletor.innerText = numero
+                } else {seletor.innerText ='VSF'
+            }
+        }
+       
+        </script>
+    
+</body>
+</html>
