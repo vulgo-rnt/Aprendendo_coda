@@ -25,7 +25,7 @@ function verif() {
       estily("<strong>Preço: R$ 399,99<strong><br>");
       add_img("cadeira/cadeira.jpg");
     } else {
-      estily("<strong>Preço: R$ 5999,99<strong><br>");
+      estily("<strong>Preço: R$ 59.999,99<strong><br>");
       add_img("cadeira/cadeira_cara.jpg");
     }
     estily(
