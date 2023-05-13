@@ -5,6 +5,7 @@ function apagar() {
 function addButt(id) {
   var selec = document.querySelector("div#mostrador");
   selec.innerText += id;
+  selec.scrollTo({ left: selec.scrollWidth });
 }
 function resultado() {
   var selecDiv = document.querySelector("div#mostrador");
