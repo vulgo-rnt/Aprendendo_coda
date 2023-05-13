@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Calculadora</title>
-        <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <section>
-        <div>
-        <div id="div"></div>   
-        <button onclick ="addButt('1')">1</button>
-        <button onclick ="addButt('2')">2</button>
-        <button onclick ="addButt('3')">3</button>
-        <button onclick ="addButt('/')">/</button><br>
-        <button onclick ="addButt('4')">4</button>
-        <button onclick ="addButt('5')">5</button>
-        <button onclick ="addButt('6')">6</button>
-        <button onclick ="addButt('*')">*</button><br>
-        <button onclick ="addButt('7')">7</button>
-        <button onclick ="addButt('8')">8</button>
-        <button onclick ="addButt('9')">9</button>
-        <button onclick ="addButt('+')">+</button><br>
-        <button onclick ="resultado()">=</button>
-        <button onclick ="addButt('0')">0</button>
-        <button onclick ="addButt('.')">.</button>
-        <button onclick ="addButt('-')">-</button><br>
-        <button id = 'apagar' onclick = 'apagar()'>Apagar</button>
-        </div>
+      <div>
+        <div id="mostrador"></div>
+        <button onclick="addButt('1')">1</button>
+        <button onclick="addButt('2')">2</button>
+        <button onclick="addButt('3')">3</button>
+        <button onclick="addButt('/')">/</button><br />
+        <button onclick="addButt('4')">4</button>
+        <button onclick="addButt('5')">5</button>
+        <button onclick="addButt('6')">6</button>
+        <button onclick="addButt('*')">*</button><br />
+        <button onclick="addButt('7')">7</button>
+        <button onclick="addButt('8')">8</button>
+        <button onclick="addButt('9')">9</button>
+        <button onclick="addButt('+')">+</button><br />
+        <button onclick="resultado()">=</button>
+        <button onclick="addButt('0')">0</button>
+        <button onclick="addButt('.')">.</button>
+        <button onclick="addButt('-')">-</button><br />
+        <button id="apagar" onclick="apagar()">Apagar</button>
+      </div>
     </section>
-        <script src = "script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>

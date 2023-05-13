@@ -1,17 +1,25 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-button{
-    font-size: 50pt;
-    width: 60pt;
+button {
+  font-size: 50pt;
+  width: 60pt;
+  margin: 4px 2px;
 }
-div#div{
-    font-size: 50pt;
+div#mostrador {
+  font-size: 50pt;
+  height: 82px;
+  border: 3px solid black;
+  border-style: dotted;
+  padding: 2px 12px;
+  width: 318px;
+  overflow: hidden;
+  overflow-x: auto;
 }
-button#apagar{
-    width: 249pt;
-    text-align: center;
+button#apagar {
+  width: 258pt;
+  text-align: center;
 }
