@@ -4,9 +4,6 @@ selet_in.addEventListener("input", () => {
   var input = document.querySelector("input").value;
   var resol = Number(input);
   select.innerHTML = "";
-  if (input.length == 0) {
-    alert("Sem dados (vai considerar a tabuada do 0)");
-  }
   for (let cont = 1; cont < 11; cont++) {
     let out = document.createElement("option");
     out.text = `${resol} X ${cont} = ${resol * cont}`;
