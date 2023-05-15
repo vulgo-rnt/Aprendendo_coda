@@ -1,0 +1,26 @@
+body{
+    background-image: url(tabuada.jpg);
+    font-family: cursive;
+}
+section{
+    text-align: center;
+    font-size: 27px;
+}
+h1{
+    color: #e6c35d;
+    text-shadow: 1px 1px black;
+    text-decoration: underline;
+}
+#central{
+    background-color:whitesmoke;
+        width: 400px;
+            box-shadow: 1px 1px 5px 1px rebeccapurple;
+            padding: 20px; 
+        margin: auto;
+    border-radius: 4pt;  
+}
+#out{
+    width: 250px;
+    margin: auto;
+    background-color: #db74e1;
+}
