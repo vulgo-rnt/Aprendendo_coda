@@ -1,32 +1,48 @@
-h1 {
-    color: rgb(50, 217, 66);
+body{
     text-align: center;
+}
+html{
+    background-image: url(fundo-escola.jpg);
+}
+h1 {
+    color: black;
     font-size: 25px;
     font-family: cursive;
     text-decoration: underline;
   }
+img#add{
+    margin: -6px;
+}
+img#rem{
+    width: 35px;
+}
 input{
     border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
 }
 section {
     margin: auto;
     text-align: center;
-    background-color: rgba(11, 123, 214, 0.445);
+    background-color: rgba(11, 123, 214, 0.753);
     box-shadow: 2px 2px 10px 1px  rgb(158, 22, 22);
     padding: 20px;
     width: 300px;
-    border-radius: 15px;
-    line-height: 45px ;
+    border-radius: 50px;
   }
   
 select {
+    margin: 20px;
     width: 215px;
     border-radius: 15px;
     background-image: url(linhas.png);
     background-size: 200px;
     font: normal 17px cursive;
-    text-decoration: underline;
     color: black;
     padding: 32px;
     overflow: hidden;  
   }
+  select option:checked {
+    background-color: transparent;
+  }  
