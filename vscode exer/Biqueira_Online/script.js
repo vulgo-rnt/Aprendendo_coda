@@ -1,5 +1,5 @@
 const select = document.querySelector("select");
-const result = document.getElementById("result");
+const result = document.getElementById("resultItems");
 var lista = {};
 var value_all = 0;
 function add() {
