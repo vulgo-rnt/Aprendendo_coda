@@ -2,7 +2,49 @@ select{
     overflow: hidden;
     width: 120px;
     padding-left: 20px;
+    border-radius: 30px;
+    background-color: rgba(144, 144, 255, 0.178);
 }
 img{
     width: 50px;
+}
+body{
+    text-align: center;
+    font: normal 20px cursive;
+}
+section{
+    width: 570px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px 4px black;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+}
+.contanier{
+    display: inline-block;
+    margin: auto;
+}
+#result{
+    top: -30px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgba(144, 144, 255, 0.178);
+}
+footer{
+    margin-top: 30px;
+    text-shadow: 1px 1px black;
+}
+#value_all{
+    background-color: rgba(107, 73, 141, 0.849);
+    border-radius: 15px;
+    padding: 6px;
+}
+html{
+    background-image: url(wallpaper.jpg);
+}
+header{
+    color: white;
+    text-shadow: 2px 3px black;
 }
