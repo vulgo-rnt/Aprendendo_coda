@@ -46,3 +46,7 @@ select {
   select option:checked {
     background-color: transparent;
   }  
+  #chek{
+    width: 32px;
+    margin: auto;
+  }
