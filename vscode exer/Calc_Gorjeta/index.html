@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc Gorjeta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1>Calculadora de Gorjeta</h1>
+    <section>
+      <input
+        type="number"
+        id="value"
+        min="0"
+        placeholder="Digite o valor aqui"
+      />
+      <p>Selecione uma porcetagem de gorjeta a baixo:</p>
+      5% <input type="radio" id="5" name="check" checked /> 15%<input
+        type="radio"
+        id="15"
+        name="check"
+      />
+      25%<input type="radio" id="25" name="check" />
+      <div id="result"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
