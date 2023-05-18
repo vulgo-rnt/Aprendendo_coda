@@ -11,20 +11,23 @@
     <h1>Calculadora de Gorjeta</h1>
     <section>
       <input
+        class="radio"
         type="number"
         id="value"
         min="0"
-        placeholder="Digite o valor aqui"
+        placeholder="Digite o valor da conta aqui:"
       />
       <p>Selecione uma porcetagem de gorjeta a baixo:</p>
-      5% <input type="radio" id="5" name="check" checked /> 15%<input
+      5%
+      <input class="radio" type="radio" id="5" name="check" checked /> 15%<input
         type="radio"
         id="15"
         name="check"
       />
-      25%<input type="radio" id="25" name="check" />
+      25%<input class="radio" type="radio" id="25" name="check" />
       <p id="result"></p>
     </section>
+    <footer>SHARKBULL&trade;</footer>
     <script src="script.js"></script>
   </body>
 </html>

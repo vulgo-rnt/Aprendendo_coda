@@ -1,6 +1,38 @@
 html{
     text-align: center;
+    font-family: cursive;
+    background-image: url(wallpaper.jpg);
 }
 h1{
-    
+    color: #ef342d;
+    text-shadow: 1px 1px 2px black;
+}
+section{
+    background-color: aqua;
+    border-radius: 30px;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 2px 2px 7px black;
+}
+input[type='number']{
+    padding: 6px;
+    width: 180px;
+    border-radius: 20px;
+    border: transparent;
+}
+.radio:checked{
+    background-color: black;
+}
+#result{
+    background-color: rgba(229, 127, 255, 0.589);
+    border-radius: 20px;
+    width:fit-content;
+    margin: 20px auto;
+} 
+footer{
+    color: rgb(193, 32, 214);
+    margin: 20px;
+    text-shadow: 2px 2px 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
