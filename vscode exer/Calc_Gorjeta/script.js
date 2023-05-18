@@ -1,5 +1,6 @@
 const input = document.querySelector("#value");
 const result = document.querySelector("#result");
+const radios = document.querySelectorAll("input[type='radio']");
 const list = [5, 15, 25];
 input.addEventListener("keyup", function (event) {
   if (event.key == "Enter") {
@@ -13,4 +14,9 @@ input.addEventListener("keyup", function (event) {
     input.focus();
     input.value = "";
   }
+});
+radios.forEach((radio) => {
+  radio.addEventListener("click", () => {
+    input.focus();
+  });
 });
