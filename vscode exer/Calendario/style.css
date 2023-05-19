@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+section {
+    margin: auto;
+    font-size: 30px;
+    background-color: rgb(85, 169, 234);
+    height: 670px;
+    text-align: center;
+    max-width: 676px;
+    border-radius: 63px;
+    box-shadow: 1px 0px 20px 4px black;
+    outline: 2px solid #000;
+}
