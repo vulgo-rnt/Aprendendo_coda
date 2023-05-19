@@ -35,3 +35,6 @@ footer{
     margin: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+img{
+    border-radius: 20px;
+}
