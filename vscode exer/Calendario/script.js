@@ -17,4 +17,5 @@ for (let i = 0; i < 12; i++) {
 select.addEventListener("change", function () {
   var mes = select.options[select.selectedIndex].value;
   imageCalendar.src = `imagens/${mes}.png`;
+  textInfo.innerHTML = list[select.selectedIndex];
 });
