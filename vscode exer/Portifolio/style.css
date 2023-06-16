@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    position: fixed;
+    margin: 10px 0 0 20px;
+}
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__button{
+    margin-top: 13px ;
+    position: fixed;
+    right: 100px;
+    padding: .5rem 0 .5rem .5rem;
+    letter-spacing: .5rem;
+    display: flex;
+    gap: 3rem;
+}
+.button{
+    cursor: pointer;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(210, 240, 253);
+    width: 100vw;
+    box-sizing: border-box;
+    height: 90vh;
+    padding: 7rem 10rem 0 10rem;
+}
+.intro__text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    font-size: 1.3em;
+}
+.icons{
+    margin-left: 2em;
+    letter-spacing: 5em;
+}
+.picture{
+    height: 20em;
+    border-radius: 30em;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(210, 240, 253);
+    text-align: center;
+    font-size: large;
+    padding: 5%;
+    
+}
+.footer__icons{
+    letter-spacing: 20px;
+}
+.up{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    opacity: 0;
+    transition: 1s;
+}
